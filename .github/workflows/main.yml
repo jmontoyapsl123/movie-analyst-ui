@@ -29,4 +29,3 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "movie-analyst-ui-heroku" #Must be unique in Heroku
           heroku_email: "jul342@gmail.com"
-          buildpack: "https://github.com/HashNuke/heroku-buildpack-elixir.git"
