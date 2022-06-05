@@ -28,7 +28,7 @@ jobs:
         with:
           args: >
             -Dsonar.organization=jmontoyapsl123
-            -Dsonar.projectKey=jmontoyapsl123_movie-analyst-api
+            -Dsonar.projectKey=jmontoyapsl123_movie-analyst-ui
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
