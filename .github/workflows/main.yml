@@ -8,7 +8,6 @@ on:
   push:
     branches: [ master ]
   pull_request:
-    branches: [ master ]
     types: [opened, synchronize, reopened]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -29,7 +28,7 @@ jobs:
         with:
           args: >
             -Dsonar.organization=jmontoyapsl123
-            -Dsonar.projectKey=jmontoyapsl123_movie-analyst-api
+            -Dsonar.projectKey=jmontoyapsl123_movie-analyst-ui
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
